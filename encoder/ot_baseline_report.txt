@@ -1,0 +1,26 @@
+============================== Bag-of-Blocks + OT Distance 基线模型性能报告 ==============================
+
+根据ROC曲线找到的最佳分类阈值 (相似度): 0.7120
+
+--- 1. 总体性能指标 ---
+              precision    recall  f1-score   support
+
+   Not Clone     0.8453    0.8463    0.8458      8262
+       Clone     0.6444    0.6426    0.6435      3581
+
+    accuracy                         0.7847     11843
+   macro avg     0.7448    0.7444    0.7446     11843
+weighted avg     0.7845    0.7847    0.7846     11843
+
+
+--- 混淆矩阵详细数据 ---
+  - True Positives (TP):  2301
+  - True Negatives (TN):  6992
+  - False Positives (FP): 1270
+  - False Negatives (FN): 1280
+
+--- 2. 各类型克隆的独立召回率 (Recall) ---
+  - Type-1 Recall: 0.8718 (34 / 39)
+  - Type-2 Recall: 0.9567 (508 / 531)
+  - Type-3 Recall: 0.9368 (875 / 934)
+  - Type-4 Recall: 0.4256 (884 / 2077)

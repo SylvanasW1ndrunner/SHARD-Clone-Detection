@@ -1,0 +1,26 @@
+==============================
+    评估报告: Semantic Abstraction (Ours)
+==============================
+              precision    recall  f1-score   support
+
+   Not Clone     0.9743    0.8947    0.9328      1653
+       Clone     0.6836    0.9060    0.7793       415
+
+    accuracy                         0.8970      2068
+   macro avg     0.8290    0.9004    0.8561      2068
+weighted avg     0.9160    0.8970    0.9020      2068
+
+
+==============================
+    评估报告: Raw Token (Baseline)
+==============================
+              precision    recall  f1-score   support
+
+   Not Clone     0.9736    0.8917    0.9308      1653
+       Clone     0.6769    0.9036    0.7740       415
+
+    accuracy                         0.8941      2068
+   macro avg     0.8252    0.8977    0.8524      2068
+weighted avg     0.9140    0.8941    0.8994      2068
+
+
